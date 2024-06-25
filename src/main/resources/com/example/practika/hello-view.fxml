@@ -8,14 +8,15 @@
   <padding>
     <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
   </padding>
-
-  <Label fx:id="welcomeText" prefHeight="46.0" prefWidth="243.0" translateY="120.0" />
-   <Button alignment="CENTER" layoutX="180.0" layoutY="151.0" onAction="#onClick" prefHeight="29.0" prefWidth="106.0" text="Не нажимай!" textAlignment="JUSTIFY" textFill="#ff511c" translateX="120.0" translateY="120.0">
+   <Button mnemonicParsing="false" text="Женя?" translateX="100.0" />
+   <Button alignment="CENTER" layoutX="180.0" layoutY="151.0" onAction="#onClick" prefHeight="29.0" prefWidth="106.0" text="Не нажимай!" textAlignment="JUSTIFY" textFill="#ff511c" translateX="120.0" translateY="150.0">
       <VBox.margin>
          <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
       </VBox.margin>
    </Button>
-  <Button onAction="#onHelloButtonClick" onKeyPressed="#onClick2" prefHeight="31.0" prefWidth="76.0" text="AAA?" textAlignment="JUSTIFY" translateX="-140.0" translateY="70.0">
+
+  <Label fx:id="welcomeText" prefHeight="46.0" prefWidth="243.0" translateY="120.0" />
+  <Button onAction="#onHelloButtonClick" onKeyPressed="#onClick2" prefHeight="31.0" prefWidth="76.0" text="AAA?" textAlignment="JUSTIFY" translateX="-120.0" translateY="30.0">
       <opaqueInsets>
          <Insets />
       </opaqueInsets>
