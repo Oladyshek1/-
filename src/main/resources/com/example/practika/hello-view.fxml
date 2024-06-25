@@ -15,7 +15,7 @@
          <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
       </VBox.margin>
    </Button>
-  <Button onAction="#onHelloButtonClick" onKeyPressed="#onClick2" prefHeight="31.0" prefWidth="76.0" text="A?" textAlignment="JUSTIFY" translateX="-140.0" translateY="70.0">
+  <Button onAction="#onHelloButtonClick" onKeyPressed="#onClick2" prefHeight="31.0" prefWidth="76.0" text="AA?" textAlignment="JUSTIFY" translateX="-140.0" translateY="70.0">
       <opaqueInsets>
          <Insets />
       </opaqueInsets>
