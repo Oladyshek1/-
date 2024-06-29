@@ -88,12 +88,21 @@ public class HelloController {
     private int theme = 0;
     private int temp = 0;
     @FXML
+<<<<<<< HEAD
     private SplitPane sPane;
+=======
+    private AnchorPane background;
+    @FXML
+    private AnchorPane background2;
+    @FXML
+    private ToggleButton F;
+>>>>>>> 2fe4fd7a2fa1ac37eb9106bef8bfea62a96e9c96
     @FXML
     private void initialize() throws IOException {
         load();
     }
     @FXML
+<<<<<<< HEAD
     private void sort() throws IOException {
         t = new Label[]{t1, t2, t3, t4, t5, t6, t7, t8, t9, t10};
         text = new TextArea[]{text1, text2, text3, text4, text5, text6, text7, text8, text9, text10};
@@ -155,6 +164,8 @@ public class HelloController {
 
     }
     @FXML
+=======
+>>>>>>> 2fe4fd7a2fa1ac37eb9106bef8bfea62a96e9c96
     private void setDalee() throws IOException {
         save();
         D1();
@@ -175,6 +186,7 @@ public class HelloController {
 
     @FXML
     public void switchTheme() {
+<<<<<<< HEAD
        Label[] tsa = {t1, t2, t3, t4, t5, t6, t7, t8, t9, t10};
         String imageUrl;
         String tColor;
@@ -194,6 +206,18 @@ public class HelloController {
         sPane.setStyle("-fx-background-image: url('" + imageUrl + "'); -fx-background-size: " + backgroundSize);
         for (Label t : tsa) {
             t.setStyle("-fx-text-fill: " + tColor);
+=======
+        text = new TextArea[]{text1, text2, text3, text4, text5, text6, text7, text8, text9, text10};
+        if (theme == 0) {
+            theme += 1;
+            background.setStyle("-fx-background-image: url('https://i.pinimg.com/736x/48/cc/0d/48cc0d3768d22db826e7a6b93acd5674.jpg')");
+            background2.setStyle("-fx-background-image: url('https://i.pinimg.com/736x/48/cc/0d/48cc0d3768d22db826e7a6b93acd5674.jpg')");
+        }
+        else if(theme == 1) {
+            theme -= 1;
+            background.setStyle("-fx-background-image: url('https://i.pinimg.com/736x/7b/0a/b2/7b0ab2df5d3418406bbbba45cb2ec6fd.jpg')");
+            background2.setStyle("-fx-background-image: url('https://i.pinimg.com/736x/7b/0a/b2/7b0ab2df5d3418406bbbba45cb2ec6fd.jpg')");
+>>>>>>> 2fe4fd7a2fa1ac37eb9106bef8bfea62a96e9c96
         }
     }
 
@@ -282,6 +306,7 @@ public class HelloController {
         List<String> lines = Files.readAllLines(path);
         while (lines.size() < (temp + 2) * 21){
             lines.add("");
+<<<<<<< HEAD
         }
         for (int i = 1; i <= 10; i++){
             text[i - 1].setText(lines.get(i + temp * 21));
@@ -291,6 +316,17 @@ public class HelloController {
             }
         }
         data.setText(lines.get(temp * 21 + 21));
+=======
+        }
+        for (int i = 1; i <= 10; i++){
+            text[i - 1].setText(lines.get(i + temp * 21));
+            t[i - 1].setText(lines.get(i + 10 + temp * 21));
+            if (lines.get(i + 10 + temp * 21).equals("") == false){
+                checkBox[i - 1].setSelected(true);
+            }
+            data.setText(lines.get(temp * 21 + 21));
+        }
+>>>>>>> 2fe4fd7a2fa1ac37eb9106bef8bfea62a96e9c96
         info.setText(String.valueOf(temp + 1));
     }
 

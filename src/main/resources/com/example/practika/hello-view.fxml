@@ -9,7 +9,11 @@
   <items>
     <AnchorPane fx:id="background" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
          <children>
+<<<<<<< HEAD
             <Label fx:id="info" alignment="CENTER" contentDisplay="CENTER" layoutX="91.0" layoutY="401.0" prefHeight="33.0" prefWidth="29.0" text="Label" textFill="#fffdfd" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="91.0" AnchorPane.rightAnchor="85.00000000000001" />
+=======
+            <Label fx:id="info" layoutX="91.0" layoutY="401.0" prefHeight="33.0" prefWidth="29.0" text="Label" textFill="#fffdfd" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="91.0" AnchorPane.rightAnchor="85.0" />
+>>>>>>> 2fe4fd7a2fa1ac37eb9106bef8bfea62a96e9c96
             <Button fx:id="dalee" layoutX="139.0" layoutY="405.0" mnemonicParsing="false" onAction="#setDalee" prefHeight="25.0" prefWidth="58.0" text="Далее" AnchorPane.bottomAnchor="17.0" AnchorPane.rightAnchor="24.0">
                <font>
                   <Font name="System Bold" size="12.0" />
@@ -129,52 +133,52 @@
                   <URL value="@darkTheme.css" />
                   <URL value="@lightTheme.css" />
                </stylesheets></CheckBox>
-            <Label fx:id="t1" layoutX="376.0" layoutY="53.0" prefHeight="39.0" prefWidth="74.0" AnchorPane.rightAnchor="17.0" AnchorPane.topAnchor="53.0">
+            <Label fx:id="t1" layoutX="376.0" layoutY="53.0" prefHeight="39.0" prefWidth="74.0" textFill="RED" AnchorPane.rightAnchor="17.0" AnchorPane.topAnchor="53.0">
                <stylesheets>
                   <URL value="@darkTheme.css" />
                   <URL value="@lightTheme.css" />
                </stylesheets></Label>
-            <Label fx:id="t2" layoutX="395.0" layoutY="93.0" prefHeight="39.0" prefWidth="74.0" AnchorPane.rightAnchor="17.0" AnchorPane.topAnchor="93.0">
+            <Label fx:id="t2" layoutX="395.0" layoutY="93.0" prefHeight="39.0" prefWidth="74.0" textFill="RED" AnchorPane.rightAnchor="17.0" AnchorPane.topAnchor="93.0">
                <stylesheets>
                   <URL value="@darkTheme.css" />
                   <URL value="@lightTheme.css" />
                </stylesheets></Label>
-            <Label fx:id="t3" layoutX="395.0" layoutY="134.0" prefHeight="39.0" prefWidth="74.0" AnchorPane.rightAnchor="17.0" AnchorPane.topAnchor="134.0">
+            <Label fx:id="t3" layoutX="395.0" layoutY="134.0" prefHeight="39.0" prefWidth="74.0" textFill="RED" AnchorPane.rightAnchor="17.0" AnchorPane.topAnchor="134.0">
                <stylesheets>
                   <URL value="@darkTheme.css" />
                   <URL value="@lightTheme.css" />
                </stylesheets></Label>
-            <Label fx:id="t4" layoutX="395.0" layoutY="172.0" prefHeight="41.0" prefWidth="74.0" AnchorPane.rightAnchor="17.0" AnchorPane.topAnchor="172.0">
+            <Label fx:id="t4" layoutX="395.0" layoutY="172.0" prefHeight="41.0" prefWidth="74.0" textFill="RED" AnchorPane.rightAnchor="17.0" AnchorPane.topAnchor="172.0">
                <stylesheets>
                   <URL value="@darkTheme.css" />
                   <URL value="@lightTheme.css" />
                </stylesheets></Label>
-            <Label fx:id="t5" layoutX="395.0" layoutY="213.0" prefHeight="39.0" prefWidth="74.0" AnchorPane.rightAnchor="17.0" AnchorPane.topAnchor="213.0">
+            <Label fx:id="t5" layoutX="395.0" layoutY="213.0" prefHeight="39.0" prefWidth="74.0" textFill="RED" AnchorPane.rightAnchor="17.0" AnchorPane.topAnchor="213.0">
                <stylesheets>
                   <URL value="@darkTheme.css" />
                   <URL value="@lightTheme.css" />
                </stylesheets></Label>
-            <Label fx:id="t6" layoutX="395.0" layoutY="252.0" prefHeight="41.0" prefWidth="74.0" AnchorPane.rightAnchor="17.0">
+            <Label fx:id="t6" layoutX="395.0" layoutY="252.0" prefHeight="41.0" prefWidth="74.0" textFill="RED" AnchorPane.rightAnchor="17.0">
                <stylesheets>
                   <URL value="@darkTheme.css" />
                   <URL value="@lightTheme.css" />
                </stylesheets></Label>
-            <Label fx:id="t7" layoutX="395.0" layoutY="292.0" prefHeight="41.0" prefWidth="74.0" AnchorPane.rightAnchor="17.0">
+            <Label fx:id="t7" layoutX="395.0" layoutY="292.0" prefHeight="41.0" prefWidth="74.0" textFill="RED" AnchorPane.rightAnchor="17.0">
                <stylesheets>
                   <URL value="@darkTheme.css" />
                   <URL value="@lightTheme.css" />
                </stylesheets></Label>
-            <Label fx:id="t8" layoutX="395.0" layoutY="333.0" prefHeight="41.0" prefWidth="74.0" AnchorPane.rightAnchor="17.0">
+            <Label fx:id="t8" layoutX="395.0" layoutY="333.0" prefHeight="41.0" prefWidth="74.0" textFill="RED" AnchorPane.rightAnchor="17.0">
                <stylesheets>
                   <URL value="@darkTheme.css" />
                   <URL value="@lightTheme.css" />
                </stylesheets></Label>
-            <Label fx:id="t9" layoutX="395.0" layoutY="372.0" prefHeight="41.0" prefWidth="74.0" AnchorPane.rightAnchor="17.0">
+            <Label fx:id="t9" layoutX="395.0" layoutY="372.0" prefHeight="41.0" prefWidth="74.0" textFill="RED" AnchorPane.rightAnchor="17.0">
                <stylesheets>
                   <URL value="@darkTheme.css" />
                   <URL value="@lightTheme.css" />
                </stylesheets></Label>
-            <Label fx:id="t10" layoutX="395.0" layoutY="406.0" prefHeight="39.0" prefWidth="74.0" AnchorPane.rightAnchor="17.0">
+            <Label fx:id="t10" layoutX="395.0" layoutY="406.0" prefHeight="39.0" prefWidth="74.0" textFill="RED" AnchorPane.rightAnchor="17.0">
                <stylesheets>
                   <URL value="@darkTheme.css" />
                   <URL value="@lightTheme.css" />
